@@ -58,4 +58,9 @@ class QuizData {
   }
 
   bool get quizOver => _quizOver;
+
+  void resetQuiz() {
+    _quizNumber = 0;
+    _quizOver = false;
+  }
 }
