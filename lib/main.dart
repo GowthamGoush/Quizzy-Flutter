@@ -19,7 +19,7 @@ void main() {
   ));
 }
 
-class QuizzyApp extends StatefulWidget {
+class QuizzyApp extends StatefulWidget { // State of the widget
   @override
   _QuizzyAppState createState() => _QuizzyAppState();
 }
