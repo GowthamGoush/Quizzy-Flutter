@@ -41,7 +41,7 @@ void scoreBoardSetUp() {
   }
 }
 
-class _QuizzyAppState extends State<QuizzyApp> {
+class _QuizzyAppState extends State<QuizzyApp> { //main content's stateful widget
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -49,7 +49,7 @@ class _QuizzyAppState extends State<QuizzyApp> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Expanded(
-            flex: 5,
+            flex: 6,
             child: Padding(
               padding: EdgeInsets.all(16.0),
               child: Center(
@@ -65,7 +65,7 @@ class _QuizzyAppState extends State<QuizzyApp> {
               ),
             )),
         Expanded(
-            flex: 1,
+            flex: 2,
             child: Padding(
               padding: EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
               child: ElevatedButton(
@@ -83,7 +83,7 @@ class _QuizzyAppState extends State<QuizzyApp> {
               ),
             )),
         Expanded(
-            flex: 1,
+            flex: 2,
             child: Padding(
               padding: EdgeInsets.fromLTRB(16.0, 8.0, 16.0, 16.0),
               child: ElevatedButton(
