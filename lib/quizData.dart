@@ -1,10 +1,10 @@
 import 'quizModel.dart';
 
-class QuizData {
+class QuizData {   // data resources for updating the UI 
   int _quizNumber = 0;
   bool _quizOver = false;
 
-  List<QuizModel> _quizList = [
+  List<QuizModel> _quizList = [  // A Arraylist containing all the questions with its answers (of type QuizModel)
     QuizModel('Some cats are actually allergic to humans', true),
     QuizModel('You can lead a cow down stairs but not up stairs.', false),
     QuizModel(

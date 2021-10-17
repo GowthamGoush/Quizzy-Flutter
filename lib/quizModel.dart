@@ -1,4 +1,4 @@
-class QuizModel {
+class QuizModel {  //  class (MODEL) containing the properties of quiz
   String _quizText;
   bool _quizAnswer;
 
